@@ -76,8 +76,8 @@ h1, h2, h3, h4 { margin: 0; }
 }
 .navbar-brand {
   font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 2px;
+  font-size: 15px;
+  letter-spacing: 3px;
   color: var(--accent) !important;
   font-weight: 500;
 }
@@ -620,6 +620,24 @@ h1, h2, h3, h4 { margin: 0; }
   .pricing-card { border-right: none; border-bottom: 1px solid var(--line); }
   .pricing-card:last-child { border-bottom: none; }
   .pricing-card-highlight { border-bottom-color: #2a3452; }
+}
+
+/* === ADDITIONAL SERVICES === */
+#services { padding: 130px 0; background: var(--paper); }
+.service-card {
+  border-top: 2px solid var(--accent);
+  padding-top: 24px;
+  height: 100%;
+}
+.service-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.service-card p {
+  font-size: 16px;
+  line-height: 1.55;
+  color: #4a4a44;
 }
 
 /* === ABOUT === */
